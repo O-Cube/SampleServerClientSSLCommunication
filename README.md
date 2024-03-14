@@ -8,6 +8,7 @@ Components:
   - MySslServer as server. Perform listening on 127.0.0.1 with port 60001.
   - MyClient as a client. Communicates with server on 127.0.0.1 with port 60002.
   - Wireshark.
+
 Operation:
   - Client connects to server and initiates SSL communication using Tls1.3. SSL handshake is successful and server transmits a minimal
 message to client and closes the connection.
